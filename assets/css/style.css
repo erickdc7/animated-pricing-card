@@ -13,3 +13,11 @@ body {
   min-height: 100vh;
   background: linear-gradient(#d5a3ff 0%, #77a5f8 100%);
 }
+
+.wrapper {
+  width: 400px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
