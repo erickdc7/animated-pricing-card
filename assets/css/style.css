@@ -137,3 +137,21 @@ header .slider {
 .features li span {
   margin-left: 10px;
 }
+
+.wrapper button {
+  height: 55px;
+  width: 100%;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 30px;
+  background: linear-gradient(145deg, #d5a3ff 0%, #77a5f8 100%);
+  transition: transform 0.3s ease;
+}
+
+.wrapper button:hover {
+  transform: scale(0.98);
+}
