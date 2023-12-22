@@ -94,4 +94,25 @@ header .slider {
 .pricing-details span {
   font-size: 65px;
   font-weight: 600;
+  position: relative;
+}
+
+.pricing-details span::before,
+.pricing-details span::after {
+  position: absolute;
+  font-weight: 400;
+}
+
+.pricing-details span::before {
+  content: "$";
+  font-size: 20px;
+  left: -13px;
+  top: 17px;
+}
+
+.pricing-details span::after {
+  content: "/mon";
+  font-size: 13px;
+  right: -33px;
+  bottom: 17px;
 }
