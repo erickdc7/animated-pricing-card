@@ -84,6 +84,28 @@ header .slider {
   display: none;
 }
 
+.cards-area {
+  overflow: hidden;
+}
+
+.cards-area .cards {
+  width: 300%;
+  display: flex;
+}
+
+.cards .row {
+  width: 33.4%;
+}
+
+#tab-1:checked ~ header .slider {
+}
+
+#tab-2:checked ~ header .slider {
+}
+
+#tab-3:checked ~ header .slider {
+}
+
 .row .pricing-details {
   margin: 20px 0;
   text-align: center;
