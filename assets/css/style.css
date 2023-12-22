@@ -90,3 +90,8 @@ header .slider {
   padding-bottom: 25px;
   border-bottom: 1px solid #e6e6e6;
 }
+
+.pricing-details span {
+  font-size: 65px;
+  font-weight: 600;
+}
