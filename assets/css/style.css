@@ -43,3 +43,13 @@ header label {
 header label:nth-child(2) {
   width: 40%;
 }
+
+header .slider {
+  position: absolute;
+  left: 50%;
+  height: 85%;
+  width: 30%;
+  border-radius: inherit;
+  transform: translateX(-50%);
+  background: linear-gradient(#d5a3ff 0%, #77a5f8 100%);
+}
