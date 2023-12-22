@@ -49,11 +49,8 @@ header label:nth-child(2) {
 
 header .slider {
   position: absolute;
-  left: 50%;
   height: 85%;
-  width: 120px;
   border-radius: inherit;
-  transform: translateX(-50%);
   background: linear-gradient(145deg, #d5a3ff 0%, #77a5f8 100%);
   transition: all 0.3s ease;
 }
@@ -62,4 +59,16 @@ header .slider {
   left: 0%;
   width: 90px;
   transform: translateX(5%);
+}
+
+#tab-2:checked ~ header .slider {
+  left: 50%;
+  width: 120px;
+  transform: translateX(-50%);
+}
+
+#tab-3:checked ~ header .slider {
+  left: 100%;
+  width: 95px;
+  transform: translateX(-105%);
 }
