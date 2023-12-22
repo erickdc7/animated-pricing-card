@@ -129,3 +129,7 @@ header .slider {
   margin-bottom: 10px;
   list-style: none;
 }
+
+.features li i {
+  color: #77a5f8;
+}
