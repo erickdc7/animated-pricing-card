@@ -79,3 +79,7 @@ header .slider {
   width: 95px;
   transform: translateX(-105%);
 }
+
+.wrapper input[type="radio"] {
+  display: none;
+}
