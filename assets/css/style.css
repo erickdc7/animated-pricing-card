@@ -24,8 +24,9 @@ body {
 
 .wrapper header {
   display: flex;
-  align-items: center;
   height: 55px;
+  position: relative;
+  align-items: center;
   border: 1px solid #ccc;
   border-radius: 30px;
 }
@@ -33,7 +34,9 @@ body {
 header label {
   height: 100%;
   width: 30%;
+  z-index: 2;
   display: flex;
+  position: relative;
   font-size: 18px;
   cursor: pointer;
   align-items: center;
@@ -48,8 +51,8 @@ header .slider {
   position: absolute;
   left: 50%;
   height: 85%;
-  width: 30%;
+  width: 120px;
   border-radius: inherit;
   transform: translateX(-50%);
-  background: linear-gradient(#d5a3ff 0%, #77a5f8 100%);
+  background: linear-gradient(145deg, #d5a3ff 0%, #77a5f8 100%);
 }
