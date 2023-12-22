@@ -43,6 +43,12 @@ header label {
   justify-content: center;
 }
 
+#tab-1:checked ~ header .tab-1,
+#tab-2:checked ~ header .tab-2,
+#tab-3:checked ~ header .tab-3 {
+  color: #fff;
+}
+
 header label:nth-child(2) {
   width: 40%;
 }
