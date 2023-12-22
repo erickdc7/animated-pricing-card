@@ -133,3 +133,7 @@ header .slider {
 .features li i {
   color: #77a5f8;
 }
+
+.features li span {
+  margin-left: 10px;
+}
