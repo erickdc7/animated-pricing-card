@@ -97,13 +97,20 @@ header .slider {
   width: 33.4%;
 }
 
-#tab-1:checked ~ header .slider {
+.cards .row-1 {
+  transition: all 0.3s ease;
 }
 
-#tab-2:checked ~ header .slider {
+#tab-1:checked ~ .cards-area .cards .row-1 {
+  margin-left: 0%;
 }
 
-#tab-3:checked ~ header .slider {
+#tab-2:checked ~ .cards-area .cards .row-1 {
+  margin-left: -33.4%;
+}
+
+#tab-3:checked ~ .cards-area .cards .row-1 {
+  margin-left: -66.8%;
 }
 
 .row .pricing-details {
