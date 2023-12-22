@@ -116,3 +116,8 @@ header .slider {
   right: -33px;
   bottom: 17px;
 }
+
+.pricing-details p {
+  font-size: 18px;
+  margin-top: 5px;
+}
