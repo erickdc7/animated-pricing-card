@@ -41,6 +41,7 @@ header label {
   cursor: pointer;
   align-items: center;
   justify-content: center;
+  transition: all 0.3s ease;
 }
 
 #tab-1:checked ~ header .tab-1,
