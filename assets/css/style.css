@@ -184,3 +184,39 @@ header .slider {
 .wrapper button:hover {
   transform: scale(0.98);
 }
+
+@media screen and (max-width: 500px) {
+  .wrapper {
+    width: 300px;
+  }
+
+  #tab-1:checked ~ header .slider {
+    width: 65px;
+  }
+
+  #tab-2:checked ~ header .slider {
+    width: 90px;
+  }
+
+  #tab-3:checked ~ header .slider {
+    width: 65px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .wrapper {
+    width: 260px;
+  }
+
+  #tab-1:checked ~ header .slider {
+    width: 55px;
+  }
+
+  #tab-2:checked ~ header .slider {
+    width: 90px;
+  }
+
+  #tab-3:checked ~ header .slider {
+    width: 55px;
+  }
+}
