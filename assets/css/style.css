@@ -56,3 +56,9 @@ header .slider {
   transform: translateX(-50%);
   background: linear-gradient(145deg, #d5a3ff 0%, #77a5f8 100%);
 }
+
+#tab-1:checked ~ header .slider {
+  left: 0%;
+  width: 90px;
+  transform: translateX(5%);
+}
